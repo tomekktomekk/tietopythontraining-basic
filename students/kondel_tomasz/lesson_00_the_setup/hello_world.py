@@ -12,6 +12,8 @@ the variable holds '__main__' string.
 
 def main():
     print('Hello world!')
+    for x in range(10):
+        print('O! x=' + str(x))
 
 
 if __name__ == '__main__':
